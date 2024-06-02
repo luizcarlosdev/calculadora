@@ -114,8 +114,8 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-between;
+    gap: 5px;
     cursor: pointer;
 }
 
@@ -130,7 +130,6 @@ body {
     & input[type='radio'] {
         opacity: 0;
         cursor: pointer;
-        width: 100%;
     }
 }
 

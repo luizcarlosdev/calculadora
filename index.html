@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Calculator</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="calculator_header">
+            <div class="calculator_header_switcher_area">
+                <h2>calc</h2>
+                <div class="switcher">
+                    <div class="switcher_title">
+                        <h4>theme</h4>
+                    </div>
+                    <div class="theme_toggle">
+                        <div class="labels">
+                            <label for="1">1</label>
+                            <label for="2">2</label>
+                            <label for="3">3</label>
+                        </div>
+                        <div class="inputs">
+                            <span class="ball-switcher"></span>
+                            <input type="radio" checked name="radioTheme" id="1">
+                            <input type="radio" name="radioTheme" id="2">
+                            <input type="radio" name="radioTheme" id="3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="calculator_header_visor">
+                <span class="visor_value"></span>
+            </div>
+        </div>
+        <div class="calculator_body">
+            <div class="calculator_buttons">
+                <button value="7" class="btn_cal btn_number">7</button>
+                <button value="8" class="btn_cal btn_number">8</button>
+                <button value="9" class="btn_cal btn_number">9</button>
+                <button class="btn_cal btn_action btn_del">DEL</button>
+
+                <button value="4" class="btn_cal btn_number">4</button>
+                <button value="5" class="btn_cal btn_number">5</button>
+                <button value="6" class="btn_cal btn_number">6</button>
+                <button value="+" class="btn_cal btn_operation">+</button>
+
+                <button value="1" class="btn_cal btn_number">1</button>
+                <button value="2" class="btn_cal btn_number">2</button>
+                <button value="3" class="btn_cal btn_number">3</button>
+                <button value="-" class="btn_cal btn_operation">-</button>
+
+                <button value="." class="btn_cal btn_operation">.</button>
+                <button value="0" class="btn_cal btn_number">0</button>
+                <button value="/" class="btn_cal btn_operation">/</button>
+                <button value="*" class="btn_cal btn_operation">x</button>
+            </div>
+            <div class="calculator_others_buttons">
+                <button class="btn_cal btn_action btn_reset">RESET</button>
+                <button class="btn_cal btn_result">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

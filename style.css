@@ -135,6 +135,7 @@ body {
 
 .ball-switcher {
     position: absolute;
+    left: 5px;
     width: 15px;
     height: 15px;
     border-radius: 50%;

@@ -12,7 +12,7 @@ const btnDel = document.querySelector(".btn_del");
 body.setAttribute("class", "theme1");
 
 radioName[0].addEventListener("change", () => {
-  ballSwitcher.style.left = "0px";
+  ballSwitcher.style.left = "5px";
   body.setAttribute("class", "theme1");
 });
 
